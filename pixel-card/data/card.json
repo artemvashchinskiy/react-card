@@ -1,0 +1,29 @@
+{
+  "name": "John Smith",
+  "description": "I’m student of IIT Bombay and I like to design website",
+  "avatar": {
+    "url": "/components/Profile-pic.png",
+    "alt": "John Smith avatar"
+  },
+  "socials": [
+    {
+      "label": "Facebook",
+      "href": "https://fb.com",
+      "icon": "/components/Facebook.png"
+    },
+    {
+      "label": "Twitter",
+      "href": "https://x.com",
+      "icon": "/components/Twitter.png"
+    },
+    {
+      "label": "Telegram",
+      "href": "https://www.whatsapp.com/?lang=uk",
+      "icon": "/components/Telegram.png"
+    }
+  ],
+  "cta": {
+    "label": "Message me",
+    "href": "https://t.me/username"
+  }
+}

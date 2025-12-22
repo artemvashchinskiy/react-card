@@ -1,0 +1,36 @@
+.vscode/
+    settings.JSON
+pixel-card/
+    .next/
+    app/
+        favicon.ico
+        globals.css
+        layout.tsx
+        page.tsx 
+    components/
+        Card.tsx 
+        infoBar.tsx
+    data/
+        card.JSON 
+    node_modules/
+    public/
+        components/
+            nav/account_circle_24px.png
+    docs/
+        note.txt
+        sceleton.txt
+    lib/
+        region.ts
+        time.ts
+        weather.ts
+    types/
+        time.ts
+        weather.ts
+    .gitignore
+    eslint.config.mjs
+    next-env.d.ts
+    package-lock.json
+    package.JSON
+    postcss.config.mjs
+    README.md
+    tsconfig.json

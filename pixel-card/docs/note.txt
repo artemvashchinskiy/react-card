@@ -1,0 +1,52 @@
+npx create-next-app@latest pixel-card
+cd pixel-card
+npm run dev
+
+Next.js renders your UI (SSR), pulls data from a JSON API 
+(WordPress / Strapi / Django / Drupal), 
+and maps that data into pixel-perfect React components.
+
+<body>
+  <Nav />
+  <main>
+    <Hero />
+    <Gallery />
+  </main>
+</body>
+
+we have complex background vs sections so background goes through sections like overlay
+
+section. w1920px max-h 1080px background img/public/components/background.png >
+  div.card w625px h785px D9D9D9 10% Background blur Stroke outside 2 radius-yes items center margin-top 60px>
+    img.logo-ava w=h=205px radius=circke(hahaha) 
+  <
+  div.text center margin-top 50px>
+    h1.header poppins medium 64 ffffff> John Smith<
+    p.description poppins medium 25 auto fffffff> I’m student of IIT Bombay and I like to design website <
+   <div 
+    <ul className="flex gap-4 margin-top 35px">
+      <li w=h=50px >
+        <a (if needed: D9D9D9 50% ffffff) href="https://fb.com" aria-label="fb">
+          <fb />img/public/components/Facebook.png
+        </a>
+      </li>
+      <li w=h=50px >
+        <a (if needed: D9D9D9 50% ffffff) href="https://x.com" aria-label="x">
+          <x />img/public/components/Twitter.png
+        </a>
+      </li>
+      <li w=h=50px >
+        <a (if needed: D9D9D9 50% ffffff) href="https://www.whatsapp.com/?lang=uk" aria-label="tg">
+          <tg />img/public/components/Telegram.png
+        </a>
+      </li>
+     </ul> 
+      <a  w 300 h 70 border 2px dashed C83BAE  margin-top-bottom 60px
+          href="https://t.me/username"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          p poppins medium 25 auto 0% C83BAE 100%>Message me
+      </a> 
+    
+  <div
